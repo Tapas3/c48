@@ -183,7 +183,7 @@ if(zombieGroup.isTouching(player)){
 }
 
 //calling the function to spawn zombies
-enemy();
+devil();
 }
 
 
@@ -236,7 +236,7 @@ else if(gameState == "bullet"){
 
 
 //creating function to spawn zombies
-function enemy(){
+function devil(){
   if(frameCount%50===0){
 
     //giving random x and y positions for zombie to appear
